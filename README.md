@@ -1,5 +1,6 @@
 # Quaternions basic operations implementation in Python
 ## Introduction
+### Introduction
 Quaternion, in algebra, is a generalization of two-dimensional complex numbers to three dimensions. 
 
 The quaternions are the most widely known and used hypercomplex numbers, though they have been mostly replaced in practice by operations with matrices and vectors. Still, the quaternions can be regarded as a four-dimensional vector space formed by combining a real number with a three-dimensional vector, with a basis (set of generating vectors) given by the unit vectors $1, i, j$, and $k$ such that
@@ -44,19 +45,9 @@ $$\
   \end{bmatrix}
 \$$
 
-
-$$\[
-  y=
-  \begin{cases}
-    x & \text{if}\quad y \geq 0 \\
-    -x & \text{if}\quad y < 0
-  \end{cases}
-\]$$
-
-$$\frac{2}{3}$$
+There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric.
 
 
-$$\sum_{2}^{3}2^{-n}=1$$
 
 sources: \
 https://www.britannica.com/science/quaternion \
