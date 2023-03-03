@@ -1,4 +1,4 @@
-# Quaternions mplementation in Python
+# Quaternions basic operations implementation in Python
  
 Where $x = 0$, evaluate $x + 1$
 
