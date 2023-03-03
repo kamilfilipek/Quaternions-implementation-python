@@ -34,7 +34,7 @@ $$\
   \end{bmatrix}
 \$$
 
-However, the representation of quaternions in $M(4, ;\ \mathbb{R})$ is not unique. For example, the same quaternion can also be represented as
+However, the representation of quaternions in $M(4, ~ \mathbb{R})$ is not unique. For example, the same quaternion can also be represented as
 
 $$\
   \begin{bmatrix}
@@ -45,7 +45,7 @@ $$\
   \end{bmatrix}
 \$$
 
-There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric. \ \
+There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric. \
 
 
 ## Implementation
