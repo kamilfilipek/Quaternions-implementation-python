@@ -77,8 +77,8 @@ $$a_1, ~ a_2, ~ b_1, ~ b_2, ~ c_1,~ c_2,~ d_1,~ d_2 ~ \in ~ \mathbb{R}$$
 
 
 ### Subtracting quaternions:
-$$q_1 - q_2 ~ = ~ a_1e ~ + ~ b_1i ~ + ~ c_1j ~ + ~ d_1k  ~ - ~ (a_2e ~ + ~ b_2i ~ + ~ c_2j ~ + ~ d_2k) ~ =$$
-$$koza x = 3$$
+$$q_1 - q_2 ~ = ~ a_1e ~ + ~ b_1i ~ + ~ c_1j ~ + ~ d_1k  ~ - ~ (a_2e ~ + ~ b_2i ~ + ~ c_2j ~ + ~ d_2k) ~ =
+koza x = 3$$
 
 
 
