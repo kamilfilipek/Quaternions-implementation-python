@@ -45,11 +45,14 @@ $$\
   \end{bmatrix}
 \$$
 
-There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric. \
+There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric.
 
 
 ## Implementation
-
+The definition of the Quaternion class is as follows:
+class Quat:
+    def __init__(self, a=0, b=0, c=0, d=0):
+        self.q = [float(a), float(b), float(c), float(d)]
 
 
 sources: \
