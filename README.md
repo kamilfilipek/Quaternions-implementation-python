@@ -50,7 +50,7 @@ There exist 48 distinct matrix representations of this form in which one of the 
 
 ## Implementation
 The definition of the Quaternion class is as follows:
-```
+```python
 class Quat:
     def __init__(self, a=0, b=0, c=0, d=0):
         self.q = [float(a), float(b), float(c), float(d)]
