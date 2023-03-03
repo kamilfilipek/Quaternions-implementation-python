@@ -1,4 +1,5 @@
 # Quaternions basic operations implementation in Python
+Implementation of some basic quaternion operations in pure Python.
 ## Mathematical background
 ### Introduction
 Quaternion, in algebra, is a generalization of two-dimensional complex numbers to three dimensions. 
@@ -129,6 +130,35 @@ $$q^{-1} ~ = ~ \frac{\overline{\rm q} }{\|q\|} ~ = ~ \frac{ ae ~ - ~ bi ~ - ~ cj
 ### Quaternion division
 $$\frac{q_1}{q_2} ~ = ~ q_1 ~ * ~\frac{1}{q_2}$$
 
+
+Example operations:
+```python
+from Quaternions import Quaternion
+
+quat = Quaternion(a=1, b=6, c=3, d=4)
+quat_2 = Quaternion(a=6, b=9, c=7, d=6)
+
+quat.print_as_matrix()
+quat_2.print_as_matrix()
+
+quat_3 = quat + quat_2
+print("q1 + q2 =", quat_3, end="\n \n")
+
+quat_4 = quat - quat_2
+print("q1 - q2 =", quat_4, end="\n \n")
+
+quat_5 = quat * quat_2
+print("q1 * q2 =", quat_5, end="\n \n")
+
+quat_6 = quat / quat_2
+print("q1 / q2 =", quat_6, end="\n \n")
+
+print(quat.magnitude(), end="\n \n")
+print(quat.determinant(), end="\n \n")
+print(quat.__abs__(), end="\n \n")
+print(quat.conjugate(), end="\n \n")
+print(quat.reciprocal(), end="\n \n")
+```
 
 
 sources: \
