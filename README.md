@@ -2,7 +2,7 @@
 
 Quaternion, in algebra, is a generalization of two-dimensional complex numbers to three dimensions. 
 The quaternions are the most widely known and used hypercomplex numbers, though they have been mostly replaced in practice by operations with matrices and vectors. Still, the quaternions can be regarded as a four-dimensional vector space formed by combining a real number with a three-dimensional vector, with a basis (set of generating vectors) given by the unit vectors $1, i, j$, and $k$ such that
-$$i2 = j2 = k2 = ijk = −1$$
+$$i^2 = j^2 = k^2 = ijk = −1$$
 
 Where $x = 0$, evaluate $x + 1$
 
