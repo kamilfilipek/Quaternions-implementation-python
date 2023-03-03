@@ -7,6 +7,8 @@ $$i^2 = j^2 = k^2 = ijk = −1$$
 
 Quaternions were first described by the Irish mathematician William Rowan Hamilton in 1843 and applied to mechanics in three-dimensional space. 
 
+
+
 ## Definition
 A quaternion is an expression of the form
 $$a + b i + c j + d k$$,
