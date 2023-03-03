@@ -33,15 +33,16 @@ $$\
   \end{bmatrix}
 \$$
 
-However, the representation of quaternions in $M(4,\,R \, \mathbb{R})$ is not unique. For example, the same quaternion can also be represented as
+However, the representation of quaternions in $M(4,\, \mathbb{R})$ is not unique. For example, the same quaternion can also be represented as
 
-$\left|x\right| = \left\{\begin{array}{cl}
-    x & \textrm{if}\ x \geq 0\\
-    -x & \textrm{if}\ x < 0
-\end{array}\right.$
-
-Evaluate
-$$x + 1$$
+$$\
+  \begin{bmatrix}
+    a & d & -b & -c \\
+    -d & a & c & c-b \\
+    b & -c & a & -d \\
+    c & b & d & a
+  \end{bmatrix}
+\$$
 
 
 $$\[
