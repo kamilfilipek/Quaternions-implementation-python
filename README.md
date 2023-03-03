@@ -48,14 +48,22 @@ $$\
 There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric.
 
 
-## Implementation
-The definition of the Quaternion class is as follows:
+## Implementation in Python
+The definition of the **Quaternion class** is as follows:
 ```python
-class Quat:
+class Quaternion:
     def __init__(self, a=0, b=0, c=0, d=0):
         self.q = [float(a), float(b), float(c), float(d)]
 ```
 
+You can use **__str()__** function to print the quaternion.
+def __str__ (self):
+  output = f"{str(self.q[0])}e"                         
+  output += f" - {str(-self.q[1])}i" if self.q[1] < 0 else f" + {str(self.q[1])}i"
+  output += f" - {str(-self.q[2])}j" if self.q[2] < 0 else f" + {str(self.q[2])}j"
+  output += f" - {str(-self.q[3])}k" if self.q[3] < 0 else f" + {str(self.q[3])}k"
+
+  return output
 sources: \
 https://www.britannica.com/science/quaternion \
 https://en.wikipedia.org/wiki/Quaternion
