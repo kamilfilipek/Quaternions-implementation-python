@@ -96,6 +96,12 @@ $$+ ~ (a_1b_2 ~ - ~ b_1a_2 ~ + ~ c_1d_2 ~ - ~ d_1c_2)i $$
 
 $$+ ~ (a_1c_2 ~ - ~ b_1d_2 ~ + ~ c_1a_2 ~ - ~ d_1b_2)j$$
 
+$$+ ~ (a_1d_2 ~ - ~ b_1c_2 ~ + ~ c_1b_2 ~ - ~ d_1a_2)k$$
+
+where
+$$a_1, ~ a_2, ~ b_1, ~ b_2, ~ c_1,~ c_2,~ d_1,~ d_2 ~ \in ~ \mathbb{R}$$
+
+
 sources: \
 https://www.britannica.com/science/quaternion \
 https://en.wikipedia.org/wiki/Quaternion
