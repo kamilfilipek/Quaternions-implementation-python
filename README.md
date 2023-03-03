@@ -1,5 +1,5 @@
 # Quaternions basic operations implementation in Python
-## Introduction
+## Mathematical background
 ### Introduction
 Quaternion, in algebra, is a generalization of two-dimensional complex numbers to three dimensions. 
 
@@ -10,7 +10,7 @@ Quaternions were first described by the Irish mathematician William Rowan Hamilt
 
 
 
-## Definition
+### Definition
 A quaternion is an expression of the form
 $$a + b i + c j + d k$$,
 where $a, b, c, d$, are real numbers, and $i, j, k$, are symbols that can be interpreted as unit-vectors pointing along the three spatial axes. 
@@ -46,6 +46,9 @@ $$\
 \$$
 
 There exist 48 distinct matrix representations of this form in which one of the matrices represents the scalar part and the other three are all skew-symmetric.
+
+
+## Implementation
 
 
 
