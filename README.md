@@ -14,6 +14,11 @@ z & w \\
 \end{bmatrix}$$
 
 
+$\begin{bmatrix}
+z & w \\
+-\overline{\rm w} & z 
+\end{bmatrix}$
+
 
 Evaluate
 $$x + 1$$
