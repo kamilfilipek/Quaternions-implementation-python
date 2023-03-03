@@ -139,25 +139,24 @@ quat = Quaternion(a=1, b=6, c=3, d=4)
 quat_2 = Quaternion(a=6, b=9, c=7, d=6)
 
 quat.print_as_matrix()
-quat_2.print_as_matrix()
 
 quat_3 = quat + quat_2
-print("q1 + q2 =", quat_3, end="\n \n")
+print(f"q1 + q2 = {quat_3}")
 
 quat_4 = quat - quat_2
-print("q1 - q2 =", quat_4, end="\n \n")
+print(f"q1 - q2 = {quat_4}")
 
 quat_5 = quat * quat_2
-print("q1 * q2 =", quat_5, end="\n \n")
+print(f"q1 * q2 = {quat_5}")
 
 quat_6 = quat / quat_2
-print("q1 / q2 =", quat_6, end="\n \n")
+print(f"q1 / q2 = {quat_6}")
 
-print(quat.magnitude(), end="\n \n")
-print(quat.determinant(), end="\n \n")
-print(quat.__abs__(), end="\n \n")
-print(quat.conjugate(), end="\n \n")
-print(quat.reciprocal(), end="\n \n")
+print(quat.magnitude())
+print(quat.determinant())
+print(quat.__abs__())
+print(quat.conjugate())
+print(quat.reciprocal())
 ```
 
 
