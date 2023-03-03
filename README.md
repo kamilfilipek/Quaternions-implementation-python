@@ -13,7 +13,7 @@ Quaternions were first described by the Irish mathematician William Rowan Hamilt
 
 ### 1.2. Definition
 A quaternion is an expression of the form
-$$a + b i + c j + d k$$,
+$$a + b i + c j + d k$$
 where $a, b, c, d$, are real numbers, and $i, j, k$, are symbols that can be interpreted as unit-vectors pointing along the three spatial axes. 
 In practice, if one of $a, b, c, d$ is $0$, the corresponding term is omitted; 
 if $a, b, c, d$ are all zero, the quaternion is the zero quaternion, denoted 0; 
