@@ -22,37 +22,16 @@ Hamilton describes a quaternion $q = a + b i + c j + d k$, as consisting of a sc
 
 
 ## Matrix representations
-$${\displaystyle {\begin{bmatrix}a+bi&c+di\\-c+di&a-bi\end{bmatrix}}.}$$
+Using 4 × 4 real matrices, that same quaternion can be written as
 
-$$M_{2x2}(\mathbb{C})$$
-
-
-$$\begin{bmatrix}
-z & w \\
--\overline{\rm w} & z 
-\end{bmatrix}$$
-
-
-$\begin{bmatrix}
-z & w \\
--\overline{\rm w} & z 
-\end{bmatrix}$
-
-$$\left[\begin{array}{cccc}
-w1 & w2 & w3 & w4	\\
-x1 & x2 & x3 & x4	\\
-y1 & y2 & y3 & y4	\\
-z1 & z2 & z3 & z4
-\end{array}\right]$$
-
-$$\[
+$$\
   \begin{bmatrix}
-    a_{11} & a_{12} & a_{13} & a_{14} \\
-    a_{21} & a_{22} & a_{23} & a_{24} \\
-    a_{31} & a_{32} & a_{33} & a_{34} \\
-    a_{41} & a_{42} & a_{43} & a_{44}
+    a & -b & -c & -d \\
+    b & a & -d & c \\
+    c & d & a & -b \\
+    d & -c & b & a
   \end{bmatrix}
-\]$$
+\$$
 
 
 $\left|x\right| = \left\{\begin{array}{cl}
