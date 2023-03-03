@@ -2,7 +2,10 @@
  
 Where $x = 0$, evaluate $x + 1$
 
-$$x = 0$$
+M_{2x2}(\mathbb{C})
+$M_{2x2}(\mathbb{C})$
+
+$$M_{2x2}(\mathbb{C})$$
 
 Evaluate
 $$x + 1$$
