@@ -1,7 +1,7 @@
 # Quaternions basic operations implementation in Python
 Implementation of some basic quaternion operations in pure Python.
 ## 1. Mathematical background
-### 1.1 Introduction
+### 1.1. Introduction
 Quaternion, in algebra, is a generalization of two-dimensional complex numbers to three dimensions. 
 
 The quaternions are the most widely known and used hypercomplex numbers, though they have been mostly replaced in practice by operations with matrices and vectors. Still, the quaternions can be regarded as a four-dimensional vector space formed by combining a real number with a three-dimensional vector, with a basis (set of generating vectors) given by the unit vectors $1, i, j$, and $k$ such that
@@ -11,7 +11,7 @@ Quaternions were first described by the Irish mathematician William Rowan Hamilt
 
 
 
-### 1.2 Definition
+### 1.2. Definition
 A quaternion is an expression of the form
 $$a + b i + c j + d k$$,
 where $a, b, c, d$, are real numbers, and $i, j, k$, are symbols that can be interpreted as unit-vectors pointing along the three spatial axes. 
@@ -23,7 +23,7 @@ Hamilton describes a quaternion $q = a + b i + c j + d k$, as consisting of a sc
 
 
 
-## 1.3 Matrix representations
+## 1.3. Matrix representations
 Using 4 × 4 real matrices, that same quaternion can be written as
 
 $$\
@@ -50,7 +50,7 @@ There exist 48 distinct matrix representations of this form in which one of the 
 
 
 ## 2. Implementation in Python
-### 2.1 Class definition
+### 2.1. Class definition
 The definition of the **Quaternion class** is as follows:
 ```python
 class Quaternion:
@@ -68,7 +68,7 @@ def __str__ (self):
 
   return output
 ```
-### 2.2 Adding quaternions:
+### 2.2. Adding quaternions:
 $$q_1 + q_2 ~ = ~ a_1e ~ + ~ b_1i ~ + ~ c_1j ~ + ~ d_1k ~ + ~ a_2e ~ + ~ b_2i ~ + ~ c_2j ~ + ~ d_2k ~ =$$ 
 
 $$= (a_1 + a_2)e ~ + ~ (b_1 + b_2)i ~ + ~ (c_1+c_2)j ~ + ~ (d_1+d_2)k$$
@@ -79,7 +79,7 @@ $$a_1, ~ a_2, ~ b_1, ~ b_2, ~ c_1,~ c_2,~ d_1,~ d_2 ~ \in ~ \mathbb{R}$$
 
 
 
-### 2.3 Subtracting quaternions:
+### 2.3. Subtracting quaternions:
 $$q_1 - q_2 ~ = ~ a_1e ~ + ~ b_1i ~ + ~ c_1j ~ + ~ d_1k  ~ - ~ (a_2e ~ + ~ b_2i ~ + ~ c_2j ~ + ~ d_2k) ~ = $$
 
 $$= ~ (a_1 ~ - ~ a_2)e ~ + ~ (b_1 ~ - ~ b_2)i ~ + ~ (c_1 ~ - ~ c_2)j ~ + ~ (d_1 ~ - ~ d_2)k$$
@@ -89,7 +89,7 @@ $$a_1, ~ a_2, ~ b_1, ~ b_2, ~ c_1,~ c_2,~ d_1,~ d_2 ~ \in ~ \mathbb{R}$$
 
 
 
-### 2.4 Multiplying quaternions:
+### 2.4. Multiplying quaternions:
 $$q_1 ~ * ~ q_2 = ~ (a_1e ~ + ~ b_1i ~ + ~ c_1j ~ + ~ d_1k) ~ * ~ (a_2e ~ + ~ b_2i ~ + ~ c_2j ~ + ~ d_2k) ~ =$$
 
 $$= ~ (a_1a_2 ~ - ~ b_1b_2 ~ - ~ c_1c_2 ~ - ~ d_1d_2)$$
@@ -103,32 +103,32 @@ $$+ ~ (a_1d_2 ~ - ~ b_1c_2 ~ + ~ c_1b_2 ~ - ~ d_1a_2)k$$
 where
 $$a_1, ~ a_2, ~ b_1, ~ b_2, ~ c_1,~ c_2,~ d_1,~ d_2 ~ \in ~ \mathbb{R}$$
 
-### 2.5 Quaternion conjugate:
+### 2.5. Quaternion conjugate:
 $$\overline{\rm q} ~ = ~ ae ~ - ~ bi ~ - ~ cj ~ = ~ dk$$
 
 where
 $$a, b, c, d  \in ~ \mathbb{R}$$
 
 
-### 2.6 Quaternion determinant
+### 2.6. Quaternion determinant
 $$det(q) ~ = ~ a^2 ~ + ~ b^2 ~ + ~ c^2 ~ + ~ d^2$$
 
 where
 $$a, b, c, d  \in ~ \mathbb{R}$$
 
 
-### 2.7 Quaternion magnitude
+### 2.7. Quaternion magnitude
 $$\|q\| ~ = ~ \sqrt{a^2 ~ + ~ b^2 ~ + ~ c^2 ~ + ~ d^2}$$
 
 where
 $$a, b, c, d  \in ~ \mathbb{R}$$
 
 
-### 2.8 Quaternion reciprocal
+### 2.8. Quaternion reciprocal
 $$q^{-1} ~ = ~ \frac{\overline{\rm q} }{\|q\|} ~ = ~ \frac{ ae ~ - ~ bi ~ - ~ cj ~ - ~ dk}{\sqrt{a^2 ~ + ~ b^2 ~ + ~ c^2 ~ + ~ d^2}}$$
 
 
-### 2.9 Quaternion division
+### 2.9. Quaternion division
 $$\frac{q_1}{q_2} ~ = ~ q_1 ~ * ~\frac{1}{q_2}$$
 
 
@@ -161,6 +161,6 @@ print(quat.reciprocal())
 ```
 
 
-## 4. Sources: \
+## 4. Sources: 
 https://www.britannica.com/science/quaternion \
 https://en.wikipedia.org/wiki/Quaternion
