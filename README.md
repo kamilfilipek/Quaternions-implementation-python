@@ -20,10 +20,9 @@ if one of $b, c, d$ equals $1$, the corresponding term is written simply $i, j, 
 Hamilton describes a quaternion $q = a + b i + c j + d k$, as consisting of a scalar part and a vector part. The quaternion $b i + c j + d k$ is called the vector part (sometimes imaginary part) of $q$, and a is the scalar part (sometimes real part) of $q$. A quaternion that equals its real part (that is, its vector part is zero) is called a scalar or real quaternion, and is identified with the corresponding real number. That is, the real numbers are embedded in the quaternions.
 
 
-Where $x = 0$, evaluate $x + 1$
 
-M_{2x2}(\mathbb{C})
-$M_{2x2}(\mathbb{C})$
+## Matrix representations
+$${\displaystyle {\begin{bmatrix}a+bi&c+di\\-c+di&a-bi\end{bmatrix}}.}$$
 
 $$M_{2x2}(\mathbb{C})$$
 
