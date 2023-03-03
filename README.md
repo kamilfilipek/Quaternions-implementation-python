@@ -101,6 +101,32 @@ $$+ ~ (a_1d_2 ~ - ~ b_1c_2 ~ + ~ c_1b_2 ~ - ~ d_1a_2)k$$
 where
 $$a_1, ~ a_2, ~ b_1, ~ b_2, ~ c_1,~ c_2,~ d_1,~ d_2 ~ \in ~ \mathbb{R}$$
 
+### Quaternion conjugate:
+$$\overline{\rm q} ~ = ~ ae ~ - ~ bi ~ - ~ cj ~ = ~ dk$$
+where
+$$a, b, c, d  \in ~ \mathbb{R}$$
+
+
+### Quaternion determinant
+$$det(q) ~ = ~ a^2 ~ + ~ b^2 ~ + ~ c^2 ~ + ~ d^2$$
+where
+$$a, b, c, d  \in ~ \mathbb{R}$$
+
+
+### Quaternion magnitude
+$$\|q\| ~ = ~ \sqrt{a^2 ~ + ~ b^2 ~ + ~ c^2 ~ + ~ d^2}$$
+where
+$$a, b, c, d  \in ~ \mathbb{R}$$
+
+
+### Quaternion reciprocal
+$$q^{-1} ~ = ~ \frac{\overline{\rm q} }{\|q\|} ~ = ~ \frac{ ae ~ - ~ bi ~ - ~ cj ~ - ~ dk}{\sqrt{a^2 ~ + ~ b^2 ~ + ~ c^2 ~ + ~ d^2}}
+
+
+### Quaternion division
+$$\frac{q_1}{q_2} ~ = ~ q_1 ~ * ~\frac{1}{q_2}$$
+
+
 
 sources: \
 https://www.britannica.com/science/quaternion \
