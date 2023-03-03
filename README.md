@@ -38,10 +38,39 @@ z & w \\
 -\overline{\rm w} & z 
 \end{bmatrix}$
 
+$$\left[\begin{array}{cccc}
+w1 & w2 & w3 & w4	\\
+x1 & x2 & x3 & x4	\\
+y1 & y2 & y3 & y4	\\
+z1 & z2 & z3 & z4
+\end{array}\right]$$
+
+$$\[
+  \begin{bmatrix}
+    a_{11} & a_{12} & a_{13} & a_{14} \\
+    a_{21} & a_{22} & a_{23} & a_{24} \\
+    a_{31} & a_{32} & a_{33} & a_{34} \\
+    a_{41} & a_{42} & a_{43} & a_{44}
+  \end{bmatrix}
+\]$$
+
+
+$\left|x\right| = \left\{\begin{array}{cl}
+    x & \textrm{if}\ x \geq 0\\
+    -x & \textrm{if}\ x < 0
+\end{array}\right.$
 
 Evaluate
 $$x + 1$$
 
+
+$$\[
+  y=
+  \begin{cases}
+    x & \text{if}\quad y \geq 0 \\
+    -x & \text{if}\quad y < 0
+  \end{cases}
+\]$$
 
 $$\frac{2}{3}$$
 
