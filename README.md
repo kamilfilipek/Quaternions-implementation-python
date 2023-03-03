@@ -38,7 +38,7 @@ However, the representation of quaternions in $M(4,\, \mathbb{R})$ is not unique
 $$\
   \begin{bmatrix}
     a & d & -b & -c \\
-    -d & a & c & c-b \\
+    -d & a & c & -b \\
     b & -c & a & -d \\
     c & b & d & a
   \end{bmatrix}
