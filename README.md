@@ -66,7 +66,11 @@ def __str__ (self):
 
   return output
 ```
-
+$q_1 + q_2 \; =$ \
+$= \; a_1e \; + \; b_1i \; + \; c_1j \; + \; d_1k \;\;+  \;\; a_2e \; + \; b_2i \; + \; c_2j \; + \; d_2k \; =$ \
+$= \; (a_1 + a_2)e \; + \; (b_1 + b_2)i \; + \; (c_1+c_2)j \; + \; (d_1+d_2)k$
+where
+$a_1, ~a_2,~ b_1,~ b_2,~ c_1,~ c_2,~ d_1,~ d_2 \; \in \; \mathbb{R}$
 
 sources: \
 https://www.britannica.com/science/quaternion \
