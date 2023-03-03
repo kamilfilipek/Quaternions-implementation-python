@@ -33,6 +33,7 @@ $$\
   \end{bmatrix}
 \$$
 
+However, the representation of quaternions in $M(4,\,R \, \mathbb{R})$ is not unique. For example, the same quaternion can also be represented as
 
 $\left|x\right| = \left\{\begin{array}{cl}
     x & \textrm{if}\ x \geq 0\\
