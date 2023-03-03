@@ -50,6 +50,7 @@ $$\frac{2}{3}$$
 $$\sum_{2}^{3}2^{-n}=1$$
 
 sources:
+
 https://www.britannica.com/science/quaternion
 
 https://en.wikipedia.org/wiki/Quaternion
